@@ -1,0 +1,20 @@
+body {
+  background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Arial;
+}
+
+nav ul {
+    list-style: none; /* quita los puntos */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* pone los elementos en línea
+    margin-right: 20px
+
+}
