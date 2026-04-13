@@ -1,11 +1,120 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Números de teléfonos GERENTES</h1>
-  </body>
+    <!DOCTYPE html>
+<head>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="assets/css/style.css"/>
+     <img src="assets/img/cabecera.png" alt="cabecera-IAS" id="cabecera"/>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - IAS</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Instituto de Asistencia Social (IAS)</h1>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <a id=a href="index.html" >Inicio</a>
+        <a id=a href="sobre-ias.html">Sobre el IAS</a>
+        <a id=a href="funciones.html">Funciones</a>
+        <a id= a href="contacto.html">Contacto</a>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+
+        
+
+        <!-- INFORMACIÓN DE CONTACTO -->
+        <section>
+            <h3>Información de contacto</h3>
+
+            <ul>
+                <li>
+                    Dirección:<address>Av. 25 de Mayo 098</address>
+                </li>
+                    
+                <li>
+                    Teléfonos: (+54) (370) 4426114 (+54) (370) 4429568
+                </li>
+    
+                <li>
+                    Correo electrónico: <a href="info@ias.gob.ar">info@ias.gob.ar</a>
+                </li>
+
+                </ul>
+            
+        </section>
+
+        <!-- FORMULARIO -->
+        <section>
+            <h3>Formulario de consulta</h3>
+
+            <form action="#" method="post">
+
+                <label>Nombre:</label><br>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre" required><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="Ingrese su email" required><br><br>
+
+                <label>Teléfono:</label><br>
+                <input type="tel" name="telefono" placeholder="Ingrese su teléfono"><br><br>
+
+                <label>Motivo de consulta:</label><br>
+                <select name="motivo" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="consulta">Consulta general</option>
+                    <option value="reclamo">Reclamo</option>
+                    <option value="sugerencia">Sugerencia</option>
+                </select><br><br>
+
+                <label>Mensaje:</label><br>
+                <textarea name="mensaje" placeholder="Escriba su mensaje aquí" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+        <!-- DETAILS -->
+        <section>
+            <h3>Más información</h3>
+
+            <details>
+                <summary>Horarios de atención extendidos.</summary>
+                <p>
+                    Lunes a viernes de 8:00 a 20:00 hs.  
+                    Sábados de 9:00 a 13:00 hs.
+                </p>
+            </details>
+        </section>
+
+        <!-- MAPA -->
+        <section>
+            <h3>Ubicación</h3>
+
+            <p>Puede encontrarnos en la siguiente ubicación:</p>
+
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.4373537128545!2d-58.16752512561314!3d-26.18244756308636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945ca5dd94bf8b9f%3A0xc46100b79e1161f8!2sInstituto%20de%20Asistencia%20Social!5e0!3m2!1ses-419!2sar!4v1775487732819!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            </iframe>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 IAS - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
 </html>

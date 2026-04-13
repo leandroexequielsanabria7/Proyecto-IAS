@@ -1,29 +1,240 @@
-.header {
-  width: 100%;                  
-  height: 140px;
-
-  background-image: url("../img/ias-logo.png"); 
-  background-size: 100% 100%;   
-  background-position: center;
-  background-repeat: no-repeat;
-
-  border: 1px solid #ccc;       
-  border-radius: 4px;
-
-  padding: 5px;                 
-  margin-bottom: 10px;
-
-  background-color: #f5f5f5;    
+/* archivo:stylecss. 
+Proyecto: Sitio Web IAS.
+Autor: Leandro Sanabria.
+Fecha: 06/04/2026
+*/
+#titulo1{
+   text-align: : center;
+    margin-top: 60px;
 }
-
-
-.oculto {
-  font-family: Arial;           
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
+/* text aling para alinear el texto
+margin top para dejar un espacio en la parte superior */
+#titulo2{
+    text-align: : center;
+    margin-top: 60px;
+}
+/* text aling para alinear el texto
+margin top para dejar un espacio en la parte superior */ 
+#mapa{
+    margin-top: 60px;
+}
+/* margin top para dejar un espacio en la parte superior */
+h2{
+     color: #128d12;
+    text-align: center;
+}
+/* text aling para alinear el texto
+margin top para dejar un espacio en la parte superior
+margin bottom para dejar espacio en la parte inferior */
+nav { 
   text-align: center;
-  line-height: 130px;
-
-  opacity: 0; 
+   display: flex;
+  justify-content: space-around;
+  gap: 350px;
+  background: #128d12;
+  border-radius: 60px;
+  justify-content:center ;
+  padding: 15px;
+   border: #000000 1px;
 }
+/* text align para centrar el texto
+word spacing para dejar espacio entre palabras
+font weight para el grosor de la letra
+background color para definir el fondo
+justify content para alinear el texto de manera horizontal
+padding espacio entre su contenido y el borde
+gap separacion entre elementos*/
+#a{
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bold ;
+  text-decoration: none;
+  
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+/* font family definir el tipo de fuente
+background color de fondo< */
+
+.h2 
+
+ul{
+    margin-top: 20px;
+    padding: 0px;
+}
+/* margin top espacio en la parte superior
+padding espacio entre el contenido y su borde */
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 5px;
+    text-align: left;
+}
+/* font family tipo de texto
+text aling ubicacion del texto */
+
+.funciones{
+    list-style-type: circle;
+    margin-top: 60px;
+}
+/* list style type modfificar el marcador de las listas */
+main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* font family tipo de fuente */
+
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}/*font family tipo de fuente */
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height:1.5;
+}
+/* font family tipo de fuente
+font size tamaño de fuente
+text align ubicacion de texto
+line height tamaño de interlineado */
+h1{
+  margin-top: 10px;
+    text-align: center;
+    color: #128d12;
+}
+/*
+text align ubicacion de texto */
+#titulohistoria {
+  text-align: left
+  color #000301;
+}
+img { 
+    width: 40%;
+    border-radius: 12%;
+    padding: 0px;
+   
+}
+/* margin ubicacion de imagen
+width se utiliza para definir el tamaño de imagen
+border radius modifica los bordes de la magen */
+#cabecera{
+  width: 100%;
+  border: 0px;
+  padding:0% ;
+}
+#imagen1{
+  border-radius: 30px;
+  border: 2px solid #128d12;
+  display: block;
+margin: auto;
+width: 500px;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+table{
+  margin-top: 70px;
+  margin bottom: 70px;
+  width: 100%;
+  table-layout: fixed;
+}
+td,tr {
+   height: 60px;
+    width: 80%;
+    text-align: center;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    align-items: center;  
+    justify-content: center;
+}
+/* margin top espacio en la parte superior
+margin bottom espacio en la parte inferior
+border para definir el contorno
+border collapse para unir los bordes de tabla
+align items para centrar los titulos de la tabla
+justify content centrar el contenido  */
+#Campo de mensaje {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* margin top espacio en la parte superior
+margin bottom 
+text align ubicacion del texto*/
+th{
+   text-align: center;
+    background-color: #128d12;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid #000000;
+}
+/* text align centra el texto en la pagina
+background color cambia el color del fondo
+color modfica el color de texto
+padding espacio entre el contenido y su borde
+border modifica el color del borde  */
+figcaption{
+    text-align: left;
+    color: hsl(0, 67%, 1%);
+}
+/* text align ubicacion de texto
+color color de texto */
+h3{
+    text-align: left;
+}
+/* text align ubicacion de texto
+margin top espacio en la parte superior
+margin bottom espacio en la parte inferior */
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
+/* text align ubicacion de texto
+margin top espacio en la parte superior */
+div form[id="contact-form"]{
+    align-items: center;
+    gap: 15px;
+}
+/* alingn items ubicacion de items en la pagina
+gap distancia entre los elementos */
+input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #020000;
+    border-radius: 50px;
+}
+/* margin top espacio en la parte superior 
+padding espacio entre el contenido y su borde
+width definir tamaño
+border tamaño y color de los bordes
+border radius tipo de borde redondo  */
+select {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #a31616;
+    border-radius: 50px;
+}
+/* padding espacio entre el contenido y su borde
+with definimos el tamaño
+border tamaño y color de bordes
+border radius tipo de borde redondo */
+div form id="campo de mensaje" {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* margin top espacio en la parte superior
+margin bottom espacio en la parte inferior
+text align ubicacion de texto */
+div button {
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    background-color: rgb(199, 91, 202);
+}
+/* margin para definir el espacio por fuera de un elemento
+padding espacio entre el elemento y su borde
+border radius sirve para modificar la forma del borde
+background color utilizada para modificar los colores de fondo */
