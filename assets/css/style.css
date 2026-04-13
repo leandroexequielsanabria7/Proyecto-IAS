@@ -238,3 +238,8 @@ div button {
 padding espacio entre el elemento y su borde
 border radius sirve para modificar la forma del borde
 background color utilizada para modificar los colores de fondo */
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+}
