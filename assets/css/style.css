@@ -243,3 +243,11 @@ background color utilizada para modificar los colores de fondo */
     grid-template-rows: auto 1fr;
     min-height: 100vh;
 }
+#nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 50%;
+    gap: 150px;
+    padding: auto 20px;
+}
